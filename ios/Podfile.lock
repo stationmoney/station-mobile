@@ -467,11 +467,8 @@ PODS:
   - RNScreens (3.15.0):
     - React-Core
     - React-RCTImage
-  - RNSentry (2.6.2):
-    - React-Core
-    - Sentry (= 7.1.4)
-  - RNSVG (12.4.0):
-    - React-Core
+  - RNSVG (9.13.6):
+    - React
   - RNVectorIcons (7.1.0):
     - React
   - SDWebImage (5.11.1):
@@ -480,9 +477,6 @@ PODS:
   - SDWebImageWebPCoder (0.8.4):
     - libwebp (~> 1.0)
     - SDWebImage/Core (~> 5.10)
-  - Sentry (7.1.4):
-    - Sentry/Core (= 7.1.4)
-  - Sentry/Core (7.1.4)
   - TrezorCrypto (0.0.9)
   - UMAppLoader (2.2.0)
   - UMCore (7.1.2)
@@ -582,7 +576,6 @@ DEPENDENCIES:
   - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - "RNSentry (from `../node_modules/@sentry/react-native`)"
   - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - TrezorCrypto
@@ -614,7 +607,6 @@ SPEC REPOS:
     - OpenSSL-Universal
     - SDWebImage
     - SDWebImageWebPCoder
-    - Sentry
     - TrezorCrypto
     - YogaKit
 
@@ -735,8 +727,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNSentry:
-    :path: "../node_modules/@sentry/react-native"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   RNVectorIcons:
@@ -829,12 +819,10 @@ SPEC CHECKSUMS:
   RNPermissions: e5b6373c08831dc4b6b13a2b798143fac20bb100
   RNReanimated: b5b17149593e7c05e4ec5c0efea1f21e05829510
   RNScreens: 4a1af06327774490d97342c00aee0c2bafb497b7
-  RNSentry: 68644ef607b780551cc555f084869764f2566652
-  RNSVG: 3dd44d99d1c18e1342aee4bfa53ab3f6a8c4865f
+  RNSVG: 8ba35cbeb385a52fd960fd28db9d7d18b4c2974f
   RNVectorIcons: bc69e6a278b14842063605de32bec61f0b251a59
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
   SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
-  Sentry: 1d3eb1a25f8c5333c88dd5603904a6d461cd9fcf
   TrezorCrypto: bfeea47a052dca2c77d4a39e1e183865e52de14d
   UMAppLoader: 21af63390e55c82e037fb9752d93114a80ecf16e
   UMCore: ce3a4faa010239063b8343895b29a6d97b01069d
@@ -843,6 +831,6 @@ SPEC CHECKSUMS:
   Yoga: d6b6a80659aa3e91aaba01d0012e7edcbedcbecd
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: f2883694c65527d54eadadb46a1fb801d3bbfb24
+PODFILE CHECKSUM: 7fd348c11ad7d22f305308a1d7b351ddbf0153c3
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.15.2

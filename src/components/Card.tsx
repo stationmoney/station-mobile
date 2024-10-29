@@ -6,7 +6,7 @@ import {
   StyleSheet,
 } from 'react-native'
 import _ from 'lodash'
-import { AreaChart, Path } from 'react-native-svg-charts'
+
 import * as shape from 'd3-shape'
 
 import { COLOR, LAYOUT } from 'consts'
@@ -44,13 +44,7 @@ const Card = ({
   const textStyle = [styles.text, dark && darkStyles.text]
   const data = [460, 466, 480, 490, 500, 510, 520]
   const Line = ({ line }: any): ReactElement => (
-    <Path
-      key="line "
-      // @ts-ignore
-      d={line}
-      stroke="rgba(255, 255, 255,.6)"
-      fill="none"
-    />
+    <></>
   )
 
   const render = (): ReactElement => (
@@ -111,15 +105,7 @@ const Card = ({
               (badge ? (
                 <View />
               ) : (
-                <AreaChart
-                  style={{ width: 60, height: 30, marginBottom: 5 }}
-                  data={data}
-                  contentInset={{ top: 0, bottom: 10 }}
-                  curve={shape.curveNatural}
-                  svg={{ fill: 'rgba(255, 255, 255, 0.2)' }}
-                >
-                  <Line />
-                </AreaChart>
+                <></>
               ))}
           </View>
         )

@@ -10,11 +10,6 @@
     "test": "jest __test__",
     "lint": "eslint --fix src --ext .ts,.tsx"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.@(ts|tsx)": [
       "npm run lint",
@@ -89,7 +84,6 @@
     "react-native-splash-screen": "^3.2.0",
     "react-native-status-bar-height": "^2.6.0",
     "react-native-svg": "^9.6.0",
-    "react-native-svg-charts": "^5.4.0",
     "react-native-svg-transformer": "^0.14.3",
     "react-native-swiper": "^1.6.0",
     "react-native-unimodules": "^0.14.8",
